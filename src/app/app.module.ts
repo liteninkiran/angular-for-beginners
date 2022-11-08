@@ -6,15 +6,15 @@ import { AppComponent } from './app.component';
 import { RoomsComponent } from './rooms/rooms.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    RoomsComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+    declarations: [
+        AppComponent,
+        RoomsComponent,
+    ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+    ],
+    providers: [],
+    bootstrap: [AppComponent],
 })
 export class AppModule { }

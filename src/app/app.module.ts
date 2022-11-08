@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { RoomsComponent } from './rooms/rooms.component';
+import { DateAgoPipe } from './pipes/date-ago.pipe';
 
 @NgModule({
     declarations: [
         AppComponent,
         RoomsComponent,
+        DateAgoPipe,
     ],
     imports: [
         BrowserModule,

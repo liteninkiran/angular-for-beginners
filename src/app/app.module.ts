@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { RoomsComponent } from './rooms/rooms.component';
 import { DateAgoPipe } from './pipes/date-ago.pipe';
+import { RoomsListComponent } from './rooms/rooms-list/rooms-list.component';
 
 @NgModule({
     declarations: [
         AppComponent,
         RoomsComponent,
         DateAgoPipe,
+        RoomsListComponent,
     ],
     imports: [
         BrowserModule,
